@@ -1,7 +1,3 @@
-# Auth service configuration
-# WARNING: jwt_secret below is the DEVELOPMENT value — should not be in production
-jwt_secret: dev_secret_123
+jwt_secret: prod_secret_456
 token_expiry: 3600
 issuer: myapp
-allowed_algorithms:
-  - HS256
